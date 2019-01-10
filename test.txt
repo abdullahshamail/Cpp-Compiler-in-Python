@@ -1,0 +1,84 @@
+class Shape
+{
+	public:
+	string name;
+	int corners;
+
+
+};
+
+
+int a=1; char first='a'; char second='b';
+double b; double c = 2.5; b=4.5;
+bool d=true;
+char test; test='k';
+string reason_for_existence="We love CS!!";
+reason_for_existence="doing projects is fun";
+
+cout << a << endl;
+cout << b << endl;
+cout << c << endl;
+cout << d << endl;
+cout << first << endl;
+cout << second << endl;
+cout << test << endl;
+cout << reason_for_existence << endl;
+
+Shape mySquare;
+mySquare.name="Square";
+mySquare.corners=4;
+
+cout << mySquare.name << mySquare.corners << endl;
+
+if(a<5)
+{
+	a = 2;  
+	if(a>1)
+	{
+		cout << "a>1" << endl;
+	}
+	else if(a==1)
+	{
+		cout << "a=1" << endl;
+		a++;
+	}
+	else
+	{
+		cout << "a<1" << endl;
+	}
+}
+else
+{ 
+	a++; 
+}
+
+cout << a << endl;
+
+cout << "binary operation" << endl;
+
+int sum=0;
+for(int i=2; i < 10; i++)
+{
+	sum=i+a;
+}
+
+cout << sum << endl;
+
+for(int i=0;i<3;i++)
+{
+	for(int j=0;j<2;j++)
+	{
+		for(int k=0;k<2;k++)
+		{
+			cout << "We love CS!!" << endl;
+		}
+	}
+}
+
+cout << "Hello World" << endl;
+
+int array[9]={1,2,3,4,5,6,7,8,9}; 
+char secondArray[]={'a','b','c'}; 
+
+cout << array[1] << endl;
+cout << secondArray[2] << endl;
